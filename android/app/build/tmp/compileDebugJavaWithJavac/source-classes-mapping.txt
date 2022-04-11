@@ -1,0 +1,14 @@
+com/takein/BuildConfig.java
+ com.takein.BuildConfig
+com/takein/ReactNativeFlipper.java
+ com.takein.ReactNativeFlipper
+ com.takein.ReactNativeFlipper$1
+ com.takein.ReactNativeFlipper$2
+ com.takein.ReactNativeFlipper$2$1
+com/takein/MainApplication.java
+ com.takein.MainApplication
+ com.takein.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/takein/MainActivity.java
+ com.takein.MainActivity

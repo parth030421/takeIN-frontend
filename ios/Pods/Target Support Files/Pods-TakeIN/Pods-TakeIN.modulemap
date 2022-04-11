@@ -1,0 +1,6 @@
+module Pods_TakeIN {
+  umbrella header "Pods-TakeIN-umbrella.h"
+
+  export *
+  module * { export * }
+}

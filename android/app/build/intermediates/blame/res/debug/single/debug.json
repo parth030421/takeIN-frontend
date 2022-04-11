@@ -1,0 +1,598 @@
+[
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_femalegray.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_femalegray.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnativetoastmessage_src_assets_icons_close.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_close.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_mapcircle.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_mapcircle.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_buylight.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_buylight.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_map2.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_map2.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_likepink.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_likepink.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_home.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_home.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_error.gif.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_error.gif"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_calories.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_calories.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_tray.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_tray.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_components_keyboad_backspace.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_components_keyboad_backspace.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativetoastmessage_src_assets_icons_error.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativetoastmessage_src_assets_icons_error.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_plusgreen.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_plusgreen.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_edit.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_edit.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_in.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_in.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_card1.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_card1.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_delete.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_delete.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_closewhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_closewhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_delivery3.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_delivery3.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_homegray.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_homegray.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_breakfcatblack.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_breakfcatblack.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_femalewhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_femalewhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnativetoastmessage_src_assets_icons_success.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_success.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_visa.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_visa.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_desertcatwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_desertcatwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_callwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_callwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_qr.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_qr.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_userpic.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_userpic.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_dinner.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_dinner.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_message.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_message.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_groupcar.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_groupcar.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_orders.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_orders.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_backblack.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_backblack.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_br.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_br.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_jd.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_jd.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_saudiarabia.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_saudiarabia.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_type3.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_type3.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_delivery4.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_delivery4.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_tab2.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_tab2.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_verify.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_verify.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_filter.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_filter.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_dinnercatwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_dinnercatwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_marker.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_marker.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_shadowborder.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_shadowborder.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_card3.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_card3.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_lunchcatblack.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_lunchcatblack.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_kw.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_kw.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_noconnection.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_noconnection.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_buy.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_buy.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_dominos.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_dominos.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_p1.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_p1.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_downarrow.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_downarrow.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_fans.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_fans.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_addblue.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_addblue.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnativetoastmessage_src_assets_icons_success.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_success.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_arrowwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_arrowwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_help.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_help.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_malewhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_malewhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_downarrowgray.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_downarrowgray.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_selectmenu.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_selectmenu.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_backwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_backwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_dinnercatblack.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_dinnercatblack.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_done.gif.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_done.gif"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_whitearrow.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_whitearrow.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-hdpi\\node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menupopup.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menupopup.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_qrcode.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_qrcode.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_about.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_about.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_noncontact.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_noncontact.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_officeblue.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_officeblue.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_homepink.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_homepink.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_notification2.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_notification2.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_desertcatblack.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_desertcatblack.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_checked.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_checked.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_indiaflag.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_indiaflag.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_mapstart.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_mapstart.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_homeblue.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_homeblue.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_loginbg.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_loginbg.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_malegray.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_malegray.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_master.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_master.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_lunchcatwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_lunchcatwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_right.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_right.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_watch.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_watch.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_map.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_map.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnativetoastmessage_src_assets_icons_info.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_info.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_user.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_user.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backiconmask.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigationstack_lib_module_vendor_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_reload.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_reload.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnativetoastmessage_src_assets_icons_error.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_error.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_tab3.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_tab3.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_likewhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_likewhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_type2.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_type2.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_vhand.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_vhand.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_graybgclose.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_graybgclose.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menuuseractive.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menuuseractive.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativetoastmessage_src_assets_icons_info.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativetoastmessage_src_assets_icons_info.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_rightwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_rightwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_minusgreen.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_minusgreen.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_wallets.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_wallets.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_dboy.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_dboy.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_cuisines.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_cuisines.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_uae.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_uae.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_pickimage.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_pickimage.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_launchingsoon.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_launchingsoon.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_right2.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_right2.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_breakfcatwhite.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_breakfcatwhite.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_address.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_address.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnativetoastmessage_src_assets_icons_close.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_close.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_dummycart.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_dummycart.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_offer.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_offer.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnativetoastmessage_src_assets_icons_info.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_info.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_setting.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_setting.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_trackbg2.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_trackbg2.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_node_modules_reactnativetoastmessage_src_assets_icons_error.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnativetoastmessage_src_assets_icons_error.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativetoastmessage_src_assets_icons_success.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativetoastmessage_src_assets_icons_success.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_eg.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_eg.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_mapend.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_mapend.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_menu_favourit.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_menu_favourit.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_soon.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_soon.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_star.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_star.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_sa.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_sa.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_deliverygif.gif.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_deliverygif.gif"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_unchecked.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_unchecked.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_telephone.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_telephone.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativetoastmessage_src_assets_icons_close.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativetoastmessage_src_assets_icons_close.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_about.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_about.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_search.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_search.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_search3.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_search3.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_flags_ym.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_flags_ym.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_type1.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_type1.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnavigationstack_lib_module_vendor_views_assets_backicon.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_notification.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_notification.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_card2.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_card2.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_delivery5.png.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_delivery5.png"
+    },
+    {
+        "merged": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_src_res_icons_splash.gif.flat",
+        "source": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\src\\main\\res\\drawable-mdpi\\src_res_icons_splash.gif"
+    }
+]

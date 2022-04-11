@@ -1,0 +1,392 @@
+import React from 'react';
+import {
+    View,
+    StatusBar, Pressable, SafeAreaView, Modal, BackHandler,
+    Text, Image, StyleSheet, TouchableHighlight,
+} from 'react-native';
+import { Footer, Header, Row, Col, MenuButton, Wrapper, Right, Left, RadioButton, ContentLoader, AddAddress, CustomSwipeable } from '../components/componentIndex';
+import Icon from "react-native-vector-icons/Ionicons";
+const marginTop = Platform.OS === 'ios' ? 0 : 0;
+import Config from '../Config';
+import { AppImages } from '../res';
+import APIKit from '../APIKit';
+// import { WebView } from 'react-native-webview';
+// import { SwipeListView } from 'react-native-swipe-list-view';
+import axios from 'axios';
+// import RNReactNativePayfortSdk from '../res/SDK/react-native-payfort-sdk';
+import {
+    getPayFortDeviceId,
+    RNPayFort,
+} from "../res/SDK/@logisticinfotech/react-native-payfort-sdk/PayFortSDK/PayFortSDK";
+export default class PaymentMethod extends React.Component {
+    state = {
+        isSwiping: false,
+        deletePopupVisible: false,
+        lastRefresh: Date(Date.now()).toString(),
+        showLoader: 1,
+        showPaymentModalVisible: false,
+        savedAddressList: [{ _id: AppImages.Card2 }, { _id: AppImages.Card3 }]
+    };
+    updateAddressInterwal;
+    reference;
+    constructor(props) {
+        super(props);
+    }
+    onAndroidBackPress = () => {
+        this.props.navigation.navigate('Checkout')
+        return true;
+    }
+    componentDidMount() {
+        this.onPay();
+        if (Platform.OS === 'android') {
+            BackHandler.addEventListener('hardwareBackPress', this.onAndroidBackPress);
+        }
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.updateAddressInterval)
+        BackHandler.removeEventListener('hardwareBackPress', this.onAndroidBackPress);
+    }
+
+    cancle() {
+        this.setModalVisible(false);
+        this.setState({ isSelectable: false })
+    }
+    setModalVisible = (visible) => {
+        APIKit.getAddress();
+        this.setState({ deletePopupVisible: visible });
+    }
+
+    deleteItems() {
+        // this.setState({ isSwiping: false })
+        fetch(Config.baseUrl + 'user/address/' + this.state.deletedItemId, {
+            method: 'DELETE',
+            headers: APIKit.CommonHeaders,
+        }).then((response) => response.json())
+            .then((responseJson) => {
+                console.log("deleteItems", responseJson)
+                APIKit.getAddress();
+                this.setState({ savedAddressList: APIKit.savedAddressList })
+                this.setState({ deletePopupVisible: false })
+            })
+            .catch((error) => {
+                console.error("deleteItemserror", error);
+                this.setState({ deletePopupVisible: false })
+                APIKit.getAddress();
+                this.setState({ savedAddressList: APIKit.savedAddressList })
+            });
+    }
+
+    onDefaultChange(id) {
+        APIKit.setDefaultAddress(id);
+        APIKit.getAddress();
+        this.setState({ savedAddressList: APIKit.savedAddressList })
+    }
+    updateAddress(id) {
+        APIKit.updateAddressId = id
+    }
+
+    setPaymentModalVisible(visible) {
+        this.setState({ showPaymentModalVisible: visible });
+    }
+
+
+    pay() {
+        let data = {};
+        data['access_code'] = 'J6QvsQwYqnKooB8EpgqV';          // require field
+        data['merchant_identify'] = '8b9c9a14';        // require field
+        data['request_phrase'] = '51tCYlVh0Zh2pMc3.j8K6F-(';              // require field
+        data['customer_email'] = 'v@example.com';       // require field
+        data['currency'] = 'USD';                       // require field
+        data['amount'] = '10';                          // require field
+        data['merchant_reference'] = '12345446';          // require field
+        data['customer_name'] = 'Glenn';
+        data['customer_ip'] = '27.79.60.231';
+        data['payment_option'] = 'VISA';
+        data['order_description'] = 'Order for testing';
+
+        RNReactNativePayfortSdk.open(data, (response) => {
+            console.log(response);
+        }, (message) => {
+            // Message in case payment is failure or cancel
+        });
+    }
+
+    getDeviceToken = async () => {
+        getPayFortDeviceId().then(async (deviceId) => {
+            await axios.post("https://sbpaymentservices.payfort.com/FortAPI/paymentApi", {
+                deviceId: deviceId,
+            })
+                .then((response) => {
+                    this.setState({ sdk_token: response.data.sdk_token }, () => {
+                        this.onPay();
+                    });
+                })
+                .catch((error) => {
+                    console.log("getDeviceToken", error);
+                });
+        });
+    };
+
+    onPay = async () => {
+        this.reference = Math.ceil(Math.random() * 10513)
+        console.log("APIKit.payAmount ", APIKit.payAmount)
+        await RNPayFort({
+            command: "PURCHASE",
+            access_code: "J6QvsQwYqnKooB8EpgqV",
+            merchant_identifier: "8b9c9a14",
+            sha_request_phrase: '51tCYlVh0Zh2pMc3.j8K6F-(',
+            merchant_reference: this.reference,
+            amount: APIKit.payAmount * 100,
+            currencyType: "SAR",
+            language: "en",
+            email: "sachin.techwins@com.co.in",
+            testing: true,
+            response_message: "Payfort payment",
+            sdk_token: this.state.sdk_token,
+        })
+            .then((response) => {
+                this.PlaceOrder();
+                console.log("asasa", response);
+            })
+            .catch((error) => {
+                console.log("onPay", error);
+                APIKit.orderStatus = 'error'
+                this.props.navigation.navigate('OrderStatus')
+                console.log("onPay", error);
+            });
+    }
+
+    PlaceOrder() {
+        this.orderDetail = {
+            "deliveryType": "Delivery",
+            "payWith": "Cash"
+        }
+        fetch('https://d13j9g2ks667w2.cloudfront.net/api/v1/order', {
+            method: 'POST',
+            headers: APIKit.CommonHeaders,
+            body: JSON.stringify({ "payload": this.orderDetail })
+        }).then((response) => response.json())
+            .then((responseJson) => {
+                console.log(responseJson)
+                if (responseJson.status == true) {
+                    APIKit.orderStatus = 'done'
+                    this.props.navigation.navigate('OrderStatus')
+                } else if (responseJson.error.status == false) {
+                    APIKit.orderStatus = 'error'
+                    this.props.navigation.navigate('OrderStatus')
+                } else {
+                    APIKit.orderStatus = 'error'
+                    this.props.navigation.navigate('OrderStatus')
+                }
+            })
+            .catch((error) => {
+                console.error("PlaceOrderError", error);
+            });
+    }
+
+    render() {
+        // this.setState({ savedAddressList: APIKit.savedAddressList })
+        const CS = Config.style;
+        const footer = (
+            <Footer style={CS.Col}>
+                <Pressable onPress={() => this.getDeviceToken()} style={[CS.Col, { width: 68, height: 68, borderRadius: 35, backgroundColor: "#5CAC7D" }]}>
+                    <Text style={[{ color: '#fff', fontSize: 40 }]}>+</Text>
+                </Pressable>
+            </Footer>
+        )
+        return (
+
+            <Wrapper footer={footer} style={{ marginTop }}>
+                <StatusBar backgroundColor="#ffffff" barStyle="dark-content" />
+                <SafeAreaView style={{ flex: 3, backgroundColor: '#FFFFFF' }} >
+
+                    <Header>
+                        <Left style={CS.imageIcon}>
+                            <Pressable onPress={() => this.props.navigation.navigate('Checkout')}>
+                                <Image source={AppImages.backBlack} style={{ width: 33, height: 33, marginLeft: 0 }} />
+                            </Pressable>
+                        </Left>
+                        <Text style={[CS.font16, CS.FW500, CS.MT10]}>Payment Method</Text>
+
+                    </Header>
+                    <View style={{ padding: 10, paddingTop: 0 }}>
+                        <Text style={[CS.font14, CS.FW700, CS.FontBold]}>Saved Cards</Text>
+                        {this.state.savedAddressList.map((list) => (
+                            <View>
+                                <CustomSwipeable rightButtonWidth={70} key={list._id}
+                                    onSwipeRelease={() => this.state.isSwiping ? this.setState({ isSwiping: false }) : this.setState({ isSwiping: true })}
+                                    rightButtons={[
+                                        <Pressable style={{ paddingLeft: 10 }}>
+                                            <Row>
+                                                <Col style={CS.Col}>
+                                                    <View style={[styles.rightSwipeBtn, { position: 'relative' }]}><Image source={AppImages.Edit} style={{ resizeMode: 'contain', width: 23, height: 23 }}></Image>
+                                                    </View>
+                                                </Col>
+                                            </Row>
+                                        </Pressable>
+
+                                    ]}>
+
+                                    <Pressable style={{ marginTop: 10 }}>
+                                        <Row size={12}>
+                                            <Col sm={12}>
+                                                <Image source={list._id} style={[{ width: '100%', borderRadius: 7, height: 74 }, CS.Col]} />
+                                            </Col>
+                                        </Row>
+                                    </Pressable>
+                                </CustomSwipeable>
+                            </View>
+                        ))}
+                    </View>
+
+                    <Row Hidden={this.state.savedAddressList.length != 0} style={[styles.container2, styles.horizontal]} >
+                        <Col sm={12} style={[CS.card, CS.col, { height: 130, marginBottom: 15 }]}>
+                            <ContentLoader active avatar pRows={3} pWidth={['50%', '100%', '70%']} avatarStyles={{ borderRadius: 3 }} title={false}></ContentLoader>
+                        </Col>
+                        <Col sm={12} style={[CS.card, CS.col, { height: 130, marginBottom: 15 }]}>
+                            <ContentLoader active avatar pRows={3} pWidth={['50%', '100%', '70%']} avatarStyles={{ borderRadius: 3 }} title={false}></ContentLoader>
+                        </Col>
+                        <Col sm={12} style={[CS.card, CS.col, { height: 130, marginBottom: 15 }]}>
+                            <ContentLoader active avatar pRows={3} pWidth={['50%', '100%', '70%']} avatarStyles={{ borderRadius: 3 }} title={false}></ContentLoader>
+                        </Col>
+                    </Row>
+                    <View>
+                        <Modal
+                            animationType="fade"
+                            transparent={true}
+                            visible={this.state.deletePopupVisible}
+                            onRequestClose={() => {
+                                this.setModalVisible(!deletePopupVisible);
+                                this.getAddress();
+                            }}>
+                            <View style={styles.centeredView}>
+                                <View style={styles.modalView}>
+                                    <Text style={[CS.font22, CS.FontBold, CS.FW700]}>Delete address</Text>
+                                    <Text style={[CS.greyText, CS.font14, CS.TextCenter, CS.FontRegular, CS.FW400, CS.MT18]}>Are you sure you would like to delete this address?</Text>
+                                    <Pressable onPress={() => this.deleteItems()} style={[CS.greenBtn, CS.MT18, { backgroundColor: '#C6345C' }]}>
+                                        <Text style={[CS.font16, CS.FontBold, CS.FW700, CS.whiteText]}>Delete</Text>
+                                    </Pressable>
+                                    <Pressable onPress={() => this.cancle()} style={[CS.greenBtn, { backgroundColor: '#ffffff', borderColor: '#56678942', borderWidth: 2 }]}>
+                                        <Text style={[CS.font16, CS.greyText]}>Cancel</Text>
+                                    </Pressable>
+                                </View>
+                            </View>
+                        </Modal>
+                    </View >
+
+
+                </SafeAreaView>
+
+                <Modal
+                    animationType="slide"
+                    transparent={true}
+                    visible={this.state.showPaymentModalVisible}
+                    onRequestClose={() => {
+                        this.setPaymentModalVisible(!this.state.showPaymentModalVisible);
+                    }}>
+                    <View style={[styles.paymentCenteredView]}>
+                        <View style={[styles.paymentModalView]}>
+                            {/* <WebView source={{ uri: 'https://dbt.teb.mybluehostin.me/payforts/public/' }} style={{ width: '109%', height: 500, marginLeft: -17, marginTop: -55, marginBottom: -15 }} /> */}
+                        </View>
+                    </View>
+                </Modal>
+            </Wrapper>
+        );
+    }
+};
+
+const styles = StyleSheet.create({
+    whiteBox: {
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 1,
+        },
+        shadowOpacity: 0.18,
+        shadowRadius: 1.00,
+    },
+    itemContainer: {
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+        zIndex: 10
+    },
+    rightSwipeBtn: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 56,
+        backgroundColor: '#D9AE56',
+        width: 56,
+        zIndex: 100,
+        borderRadius: 28,
+        marginTop: 18
+    },
+    rightSwipeBtn2: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 159,
+        backgroundColor: '#C6345C',
+        width: 80,
+        zIndex: 0,
+        borderTopRightRadius: 10,
+        borderBottomRightRadius: 10,
+        // marginLeft: 10,
+    },
+    centeredView: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: 'rgba(0, 0, 0, 0.75)'
+    },
+    modalView: {
+        backgroundColor: "white",
+        borderRadius: 20,
+        padding: 29,
+        paddingBottom: 40,
+        width: 310,
+        alignItems: "center",
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5
+    },
+    container2: {
+        margin: 20,
+    },
+    paymentCenteredView: {
+        flex: 1,
+        justifyContent: "flex-end",
+        alignItems: "center",
+        backgroundColor: 'rgba(0, 0, 0, 0.75)'
+    },
+    paymentModalView: {
+        backgroundColor: "white",
+        borderRadius: 20,
+        // padding: 15,
+        paddingBottom: 0,
+        width: '100%',
+        height: 550,
+        borderBottomLeftRadius: 0,
+        borderBottomRightRadius: 0,
+        // alignItems: "center",
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 2
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 4,
+        elevation: 5
+    },
+});
+

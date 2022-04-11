@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pf_gray">#3C3C3D</color>
+    <color name="pf_green">#15AF68</color>
+    <color name="pf_light_gray">#F2F4F8</color>
+    <color name="pf_light_yellow">#FFD460</color>
+    <color name="pf_red">#990000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="pf_100_txt_size">100sp</dimen>
+    <dimen name="pf_10_txt_size">10sp</dimen>
+    <dimen name="pf_10dp_space">10dp</dimen>
+    <dimen name="pf_12_txt_size">12sp</dimen>
+    <dimen name="pf_13_txt_size">13sp</dimen>
+    <dimen name="pf_15_txt_size">15sp</dimen>
+    <dimen name="pf_20_txt_size">20sp</dimen>
+    <dimen name="pf_25_txt_size">25sp</dimen>
+    <dimen name="pf_25dp_space">25dp</dimen>
+    <dimen name="pf_50_txt_size">50sp</dimen>
+    <dimen name="pf_5dp_space">5dp</dimen>
+    <dimen name="pf_ET_height">50dp</dimen>
+    <dimen name="pf_amount_header_height">50dp</dimen>
+    <dimen name="pf_back_icon_txt_size">20sp</dimen>
+    <dimen name="pf_border_space">10dp</dimen>
+    <dimen name="pf_card_type_height">30dp</dimen>
+    <dimen name="pf_card_type_icon_txt_size">25sp</dimen>
+    <dimen name="pf_card_type_margin_to_align">-14dp</dimen>
+    <dimen name="pf_card_type_margin_to_align_ar">14dp</dimen>
+    <dimen name="pf_card_type_width">60dp</dimen>
+    <dimen name="pf_elements_top_space">15dp</dimen>
+    <dimen name="pf_icon_glow_radius">6dp</dimen>
+    <dimen name="pf_init_act_height">100dp</dimen>
+    <dimen name="pf_init_act_width">210dp</dimen>
+    <dimen name="pf_init_hint_margin_left">4dp</dimen>
+    <dimen name="pf_init_hint_margin_top">-15dp</dimen>
+    <dimen name="pf_init_loading_dim">50dp</dimen>
+    <dimen name="pf_init_loading_loading_width">3dp</dimen>
+    <dimen name="pf_init_logo_margin">5dp</dimen>
+    <dimen name="pf_init_logo_width">100dp</dimen>
+    <dimen name="pf_pay_btn_height">60dp</dimen>
+    <dimen name="pf_payment_type_header_height">45dp</dimen>
+    <dimen name="pf_remember_me_tb_height">30dp</dimen>
+    <dimen name="pf_remember_me_tb_width">50dp</dimen>
+    <dimen name="pf_tittle_header_height">45dp</dimen>
+    <string name="icon_attention_circled" translatable="false"></string>
+    <string name="icon_cancel_circled" translatable="false"></string>
+    <string name="icon_cc_amex" translatable="false"></string>
+    <string name="icon_cc_mada" translatable="false"></string>
+    <string name="icon_cc_mastercard" translatable="false"></string>
+    <string name="icon_cc_nps" translatable="false"></string>
+    <string name="icon_cc_visa" translatable="false"></string>
+    <string name="icon_credit_card" translatable="false"></string>
+    <string name="icon_left_circled" translatable="false"></string>
+    <string name="icon_ok" translatable="false"></string>
+    <string name="icon_ok_circled" translatable="false"></string>
+    <string name="pf_app_name">FortPaymentSDK</string>
+    <string name="pf_cancel_cvv_amex_length">\nCVV number must consist of <em>4 digits.</em></string>
+    <string name="pf_cancel_cvv_length">\nCVV number must consist of <em>3 digits.</em></string>
+    <string name="pf_cancel_exp_date_in_past">\nThe date entered is in the <em>Past!</em></string>
+    <string name="pf_cancel_exp_date_invalid">\nThe date entered is <em>Invalid!</em></string>
+    <string name="pf_cancel_payment_btn_no">NO</string>
+    <string name="pf_cancel_payment_btn_yes">YES</string>
+    <string name="pf_cancel_payment_msg">Cancel this payment?</string>
+    <string name="pf_cancel_required_field">\nRequired field; cannot be left empty</string>
+    <string name="pf_canceled_by_user">Transaction canceled by payer</string>
+    <string name="pf_card_number_hint">CARD NUMBER</string>
+    <string name="pf_cardholder_name_hint">CARDHOLDER NAME</string>
+    <string name="pf_cc_title_hint">Credit Card</string>
+    <string name="pf_cvv_hint">CVV</string>
+    <string name="pf_errors_card_number_amex_length">\nCredit Card number must consist of <em>15 digits.</em></string>
+    <string name="pf_errors_card_number_invalid">\nCard number is <em>invalid.</em></string>
+    <string name="pf_errors_card_number_length">\nCredit Card number must consist of <em>16 digits.</em></string>
+    <string name="pf_errors_card_number_mismatch_po">\nThe entered credit card type does not match the selected payment option.</string>
+    <string name="pf_expiry_date_hint">EXPIRY DATE</string>
+    <string name="pf_expiry_date_value">MM/YY</string>
+    <string name="pf_init_conn_hint">Init a secure connection...</string>
+    <string name="pf_no_back_tnx_processing">Your transaction is under processing, please wait</string>
+    <string name="pf_no_connection">no connection, please check the internet connection</string>
+    <string name="pf_pay_btn_hint">Pay</string>
+    <string name="pf_remember_me">Remember me</string>
+    <string name="pf_resp_page_failed">Failed</string>
+    <string name="pf_resp_page_great">Great</string>
+    <string name="pf_technical_problem">Technical problem</string>
+    <string name="pf_wifi_settings">Settings</string>
+    <style name="Fort.EditText.Style" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <!--<item name="android:textSize">13sp</item>-->
+    </style>
+    <style name="Fort.TextInputLayout.ET" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- bottom line color -->
+        <item name="colorControlNormal">@color/pf_light_gray</item>
+        <item name="colorControlActivated">@android:color/darker_gray</item>
+        <item name="colorControlHighlight">@android:color/darker_gray</item>
+        <item name="android:layout_marginBottom">-28dp</item>
+        <!--<item name="android:paddingTop">5dp</item>-->
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+    </style>
+    <style name="Fort.TextInputLayout.TextAppearance" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/pf_light_gray</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Theme.Transparent" parent="Theme.Transparent.NoTittle">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.Transparent.NoTittle" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    <style name="error_appearance">
+        <item name="android:textSize">11sp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/pf_red</item>
+        <item name="android:layout_marginTop">-15dp</item>
+    </style>
+    <style name="error_appearanceAR">
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/pf_red</item>
+        <item name="android:layout_marginTop">-3dp</item>
+    </style>
+    <style name="error_appearanceTL">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">@color/pf_red</item>
+    </style>
+</resources>

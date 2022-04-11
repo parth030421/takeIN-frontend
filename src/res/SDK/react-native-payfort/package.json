@@ -1,0 +1,53 @@
+{
+  "_from": "react-native-payfort@^1.0.1",
+  "_id": "react-native-payfort@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-zmx7Gu76Lrh2jaorYZaXjkHW0rSF+azbFivZD20ycvzRTUKC3CwmiFAPk+tcoaKRAxt/1sxdgGZZK8VVsIw97w==",
+  "_location": "/react-native-payfort",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-payfort@^1.0.1",
+    "name": "react-native-payfort",
+    "escapedName": "react-native-payfort",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-payfort/-/react-native-payfort-1.0.1.tgz",
+  "_shasum": "41b7e39b52c923e7bd5150d0c503518c9d9300c2",
+  "_spec": "react-native-payfort@^1.0.1",
+  "_where": "/Users/admin/TakeIN-Android",
+  "author": {
+    "name": "Hazem El-Sisy"
+  },
+  "bugs": {
+    "url": "https://github.com/zumaawad/react-native-payfort/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A react native wrapper for PayFort SDK.",
+  "homepage": "https://github.com/zumaawad/react-native-payfort#readme",
+  "keywords": [
+    "reactnative",
+    "payfort",
+    "ecommerce",
+    "online payment",
+    "payment"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-payfort",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zumaawad/react-native-payfort.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

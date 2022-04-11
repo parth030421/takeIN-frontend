@@ -1,0 +1,57 @@
+{
+  "_from": "react-native-payfort-sdk",
+  "_id": "react-native-payfort-sdk@1.0.10",
+  "_inBundle": false,
+  "_integrity": "sha512-4ewAM9N8XMlgXBcftwqLC+vznQPXnSA3GS7400oubYseyKDebZ5lMlkU5OSbATDD8OavcZDawI7TM+T0MCzW0g==",
+  "_location": "/react-native-payfort-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-payfort-sdk",
+    "name": "react-native-payfort-sdk",
+    "escapedName": "react-native-payfort-sdk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-payfort-sdk/-/react-native-payfort-sdk-1.0.10.tgz",
+  "_shasum": "3467cf7e989364b913129573e665cd590e16c9d4",
+  "_spec": "react-native-payfort-sdk",
+  "_where": "/Users/admin/TakeIN-Android",
+  "author": {
+    "name": "Glenn, Chau"
+  },
+  "bugs": {
+    "url": "https://github.com/crabbynguyen/RN-Payfort-SDK/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The first completed React Native library for Payfort SDK integration ",
+  "homepage": "https://github.com/crabbynguyen/RN-Payfort-SDK#readme",
+  "keywords": [
+    "react-native",
+    "payfort",
+    "android",
+    "ios",
+    "payment"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-payfort-sdk",
+  "peerDependencies": {
+    "react-native": "^0.56.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/crabbynguyen/RN-Payfort-SDK.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.10"
+}

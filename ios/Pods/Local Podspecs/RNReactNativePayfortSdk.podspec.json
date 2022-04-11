@@ -1,0 +1,25 @@
+{
+  "name": "RNReactNativePayfortSdk",
+  "version": "1.0.10",
+  "summary": "The first completed React Native library for Payfort SDK integration",
+  "license": "MIT",
+  "homepage": "https://github.com/crabbynguyen/RN-Payfort-SDK/",
+  "authors": {
+    "Glenn": "glenn@simicart.com",
+    "Chau": "chau@simicart.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/author/RNReactNativePayfortSdk.git",
+    "tag": "master"
+  },
+  "source_files": "RNReactNativePayfortSdk/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

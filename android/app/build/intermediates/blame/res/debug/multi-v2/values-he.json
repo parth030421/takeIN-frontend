@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\ReactNative_Projects\\takeIN-frontend\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\BAPS\\.gradle\\caches\\transforms-3\\b8d8e22da207f84f95141b6e0f40b785\\transformed\\jetified-fonticon-0.1.8\\res\\values-he\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "165",
+                        "endColumns": "49",
+                        "endOffsets": "210"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                }
+            ]
+        }
+    ]
+}

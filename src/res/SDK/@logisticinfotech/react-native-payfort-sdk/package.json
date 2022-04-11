@@ -1,0 +1,73 @@
+{
+  "_from": "@logisticinfotech/react-native-payfort-sdk",
+  "_id": "@logisticinfotech/react-native-payfort-sdk@1.0.16",
+  "_inBundle": false,
+  "_integrity": "sha512-z9rUOEct0FLfpoN7AULqjD0e91qIZDK2X6dxHE4ynSkUL7mpQlzA8DtqQ6hgvMqsWvb9tndPLCF4iB0FGMLBdw==",
+  "_location": "/@logisticinfotech/react-native-payfort-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@logisticinfotech/react-native-payfort-sdk",
+    "name": "@logisticinfotech/react-native-payfort-sdk",
+    "escapedName": "@logisticinfotech%2freact-native-payfort-sdk",
+    "scope": "@logisticinfotech",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@logisticinfotech/react-native-payfort-sdk/-/react-native-payfort-sdk-1.0.16.tgz",
+  "_shasum": "346974ac95921eaed6529d15afd008e5046bfe59",
+  "_spec": "@logisticinfotech/react-native-payfort-sdk",
+  "_where": "/Users/admin/TakeIN-Android",
+  "author": {
+    "name": "Shubham Vala, Darshan Dixit, Naishadh Sakariya, Bhavin Rajapara"
+  },
+  "bugs": {
+    "url": "https://github.com/logisticinfotech/react-native-payfort-sdk/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native PayFort SDK for payment.",
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "typescript": "^3.4.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/logisticinfotech/react-native-payfort-sdk#readme",
+  "keywords": [
+    "react-native",
+    "React",
+    "ReactNativePayFortSDK",
+    "RNPayFortSDK",
+    "PayFort SDK",
+    "PayFort",
+    "Pay"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "main": "index.js",
+  "name": "@logisticinfotech/react-native-payfort-sdk",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logisticinfotech/react-native-payfort-sdk.git",
+    "baseUrl": "https://github.com/logisticinfotech/react-native-payfort-sdk"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "title": "React Native Pay Fort",
+  "types": "index.d.ts",
+  "version": "1.0.16"
+}
